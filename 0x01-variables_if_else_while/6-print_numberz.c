@@ -1,21 +1,19 @@
 #include <stdio.h>
-
 /**
  * main - main function
- *
+ * Description: single digit
  * Return: 0 on success
  */
 int main(void)
 {
-	int s = 97, e = 122;
+	int c = 0;
 
-	while (e >= s)
+	while (c < 10)
 	{
-		putchar(e);
-		e--;
+		putchar(48 + c);
+		c++;
 	}
 
 	putchar('\n');
-
 	return (0);
 }
