@@ -7,24 +7,22 @@
  */
 int main(void)
 {
-	int s = 97, e = 122;
+	char c = 'a';
 
-	while (s <= e)
+	while (c <= 'z')
 	{
-		putcher(s);
-		s++;
+		putchar(c);
+		c++;
 	}
 
-	s = 65;
-	e = 90;
+	c = 'A';
 
-	while (s <= e)
+	while (c <= 'Z')
 	{
-		putchar(s);
-		s++;
+		putchar(c);
+		c++;
 	}
 
 	putchar('\n');
-
 	return (0);
 }
