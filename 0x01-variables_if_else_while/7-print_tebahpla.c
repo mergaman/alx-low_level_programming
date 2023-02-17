@@ -1,30 +1,22 @@
 #include <stdio.h>
-
+#include <time.h>
+#include <stdlib.h>
 /**
- * main - main function
- *
- * Return: 0 on success
+ * main - block
+ * Description : single digit
+ * Starting from 0,
+ * Return: 0
  */
 int main(void)
 {
-	int s = 0, e = 9;
+	char c = 'Z';
 
-	while (s <= e)
+	while (c >= 'a')
 	{
-		putchar(s + '0');
-		s++;
-	}
-
-	s = 97;
-	e = 102;
-
-	while (s <= e)
-	{
-		putchar(s);
-		s++;
+		putchar(c);
+		c--;
 	}
 
 	putchar('\n');
-
 	return (0);
 }
