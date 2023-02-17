@@ -36,7 +36,7 @@ int main(void)
 				if (c != 98)
 				{
 					putchar(' ');
-					putchar(' ');
+					putchar(',');
 				}
 			}
 			c2++;
