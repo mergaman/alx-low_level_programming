@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main -main function
  *
@@ -7,14 +6,13 @@
  */
 int main(void)
 {
+	int s = 0, e = 9;
 
-int s = 97, e = 122;
-while (s <= e)
-{
-if (s != 'q' && s != 'e')
-putchar (s);
-s++
-}
-putchar ('\n');
-return (0);
+	while (s <= e)
+	{
+		putchar(s + '0');
+		s++;
+	}
+	putchar('n');
+	return (0);
 }
