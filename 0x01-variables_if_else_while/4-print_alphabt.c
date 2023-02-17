@@ -1,14 +1,14 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
 * main - main function
 *
 * Return: 0 on success
 */
-intmain(void)
+int main(void)
 {
 int s = 97, e = 122;
-while (s  <=  e)
+while (s <= e)
 {
 if (s != 'q' && s != 'e')
 putchar(s);
