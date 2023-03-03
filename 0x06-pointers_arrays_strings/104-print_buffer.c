@@ -33,6 +33,9 @@ void print_buffer(char *b, int size)
 			{
 				printf(" ");
 			}
+			{
+				printf(" ");
+			}
 		}
 		for (i = 0; i < j; i++)
 		{
