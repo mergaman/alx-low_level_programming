@@ -36,14 +36,15 @@ void print_buffer(char *b, int size)
 		}
 		for (i = 0; i < j; i++)
 		{
-			int c = *b(b + o + i);
+			int c = *(b + o + i);
 
 			if (c < 32 || c > 132)
 			{
 				c = '.';
 			}
-			printf("\n");
-			o += 10;
+			printf("%c", c);
 		}
+		printf("\n");
+		o += 10;
 	}
 }
