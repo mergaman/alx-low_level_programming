@@ -19,6 +19,7 @@ int num, j, result;
 	return (1);
 	}
 	num = atoi(argv[1]);
+
 	result = 0;
 	if (num < 0)
 	{
