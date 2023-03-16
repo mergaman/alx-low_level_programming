@@ -1,7 +1,7 @@
-#ifndef "MAIN_H"
-#define "MAIN_H"
+#ifndef MAIN_H
+#define MAIN_H
 
-#include <stdlio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>
 
