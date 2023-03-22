@@ -49,13 +49,13 @@ int op_div(int a, int b)
 }
 
 /**
- * op_mud - calculates the remainder of the division of two integers
+ * op_mod - calculates the remainder of the division of two integers
  * @a: first integer
  * @b: second integer
  *
  * Return: remainder of a divided b
  */
-int op_mud(int a, int b)
+int op_mod(int a, int b)
 {
 	return (a % b);
 }
