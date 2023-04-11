@@ -3,10 +3,11 @@
 
 
 /**
- * read_textfile - Read the print STDOUT
+ * read_textfile - print text file to STDOUT.
  * @filename: folder created for file
  * @letters: make sure to read A to Z
- * success: 0 or Null
+ * success: 0
+ * Return: NULL
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
